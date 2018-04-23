@@ -17,6 +17,13 @@ public class ImagePiece {
                 '}';
     }
 
+    public ImagePiece(int index) {
+        this.index = index;
+    }
+
+    public ImagePiece() {
+    }
+
     private  int index;
     private Bitmap bitmap;
 
